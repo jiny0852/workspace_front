@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*  전체 요소  */
+*{ 
+    font-family: "맑은 고딕";
+    font-size: 17px;
+ }
+
+h2 { font-size: 25; }
+
+h3 { font-size: 20px;}
+
+h1 {
+    font-family: "궁서";
+    font-size: 30px;
+    font-weight: 15px;
+}
+
+
+
+/*  문단 요소  */
+/*
+.txt-indent {
+    
+}
+*/
+.bg-gray {
+    background-color: #d9d9d9;
+    text-indent: 30px;
+}
+
+ol > li { list-style-type: none; }
+ul > li { list-style-type: square; }
+
+/* 링크 */
+
+a:link { color: #000000; text-decoration: none; }
+a:visited { color: #000000; text-decoration: none; }
+a:hover { color: #000000; text-decoration: none; }
+a:active { color: #000000; text-decoration: none; }
+
+
+
+
+
+
+
+/*  글자 요소?  */
+
+.b-blue { color: blue; }
+.b-red { color: red; }
+.b-green { color: #00ff00; }
+
+.i-blue { 
+    color: blue; 
+    font-style: italic;
+}
+.i-red { 
+    color: red; 
+    font-style: italic;
+}
+
+.i-b-blue { 
+    color: blue; 
+    font-style: italic;
+    font-weight: bold;
+}
+.i-b-red { 
+    color: red; 
+    font-style: italic;
+    font-weight: bold;
+}
+
+.unline-green { 
+    color: #00ff00;
+    text-decoration: underline
+}
+
+.unline { text-decoration: underline }
+
+
+
+
+
+
