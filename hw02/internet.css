@@ -17,6 +17,18 @@ h1 {
 }
 
 
+/* 링크 */
+
+a:link { color: #000000; text-decoration: none; }
+a:visited { color: #000000; text-decoration: none; }
+a:hover { color: #000000; text-decoration: none; }
+a:active { color: #000000; text-decoration: none; }
+
+a.int:link { color: #ffffff; text-decoration: none; }
+a.int:visited { color: #ffffff; text-decoration: none; }
+a.int:hover { color: #0000ff; text-decoration: underline; }
+a.int:active { color: #0000ff; text-decoration: underline; }
+
 
 /*  문단 요소  */
 /*
@@ -32,12 +44,17 @@ h1 {
 ol > li { list-style-type: none; }
 ul > li { list-style-type: square; }
 
-/* 링크 */
+/* 테이블 */
+.speed::before{ content: "약 "; }
+.speed::after{
+    content: "(MB/초)";
+}
 
-a:link { color: #000000; text-decoration: none; }
-a:visited { color: #000000; text-decoration: none; }
-a:hover { color: #000000; text-decoration: none; }
-a:active { color: #000000; text-decoration: none; }
+.speed { text-align: right; }
+
+table > thead { background-color: #c8ebfa; }
+
+table > tbody > tr:hover{ background-color: #edd3ed; }
 
 
 

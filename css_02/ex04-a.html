@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+
+<html lang="ko">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+
+        <style>
+            table {
+                border-collapse: collapse;
+
+            }
+
+            table>thead>tr {
+                border-top: 3px solid dimgrey;
+                border-right: 0px;
+                border-bottom: 3px solid dimgrey;
+                border-left: 0px;
+                
+            }
+
+            table>tbody>tr {
+                border: 1px dotted #b4b4b4;
+                border-top: 1px dotted #b4b4b4;
+                border-right: 0px;
+                border-bottom: 1px dotted #b4b4b4;
+                border-left: 0px;
+            }
+
+            
+
+
+
+            table>thead>tr>th, table>tbody>tr>td {
+                text-align: center;
+            }
+
+            table>thead>tr>th {
+                background-color: #dddddd;  
+                font-weight: bold;
+            }
+
+            table>tbody>tr:hover {
+                background-color: #ffff00;
+            }
+
+            
+
+            
+
+
+
+
+        </style>
+
+
+    </head>
+
+
+    <body>
+
+        <h1>mysite</h1>
+        <h2>게시판</h2>
+        <h3>일반게시판</h3>
+        <h4>리스트</h4>
+
+
+        <table>
+            <colgroup>
+                <col style="width: 50px;">
+                <col style="width: 300px;">
+                <col style="width: 80px;">
+                <col style="width: 80px;">
+                <col style="width: 100px;">
+                <col style="width: 50px;">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>글쓴이</th>
+                    <th>조회수</th>
+                    <th>작성일</th>
+                    <th>관리</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>123</td>
+                    <td>게시판 게시글입니다</td>
+                    <td>정우성</td>
+                    <td>1234</td>
+                    <td>2024-08-07</td>
+                    <td>삭제</td>
+                </tr>
+                <tr>
+                    <td>123</td>
+                    <td>게시판 게시글입니다</td>
+                    <td>정우성</td>
+                    <td>1234</td>
+                    <td>2024-08-07</td>
+                    <td>삭제</td>
+                </tr>
+                <tr>
+                    <td>123</td>
+                    <td>게시판 게시글입니다</td>
+                    <td>정우성</td>
+                    <td>1234</td>
+                    <td>2024-08-07</td>
+                    <td>삭제</td>
+                </tr>
+                <tr>
+                    <td>123</td>
+                    <td>게시판 게시글입니다</td>
+                    <td>정우성</td>
+                    <td>1234</td>
+                    <td>2024-08-07</td>
+                    <td>삭제</td>
+                </tr>
+                <tr>
+                    <td>123</td>
+                    <td>게시판 게시글입니다</td>
+                    <td>정우성</td>
+                    <td>1234</td>
+                    <td>2024-08-07</td>
+                    <td>삭제</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td> </td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </body>
+</html>
