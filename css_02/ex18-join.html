@@ -51,17 +51,17 @@
             <!--    ##########다시다시###########       -->
 
             <div class="form-group">
-                <span class="form-txt">주소</span>
-                <span>
-                    <div>
-                        <input type="text" name="user-address" value="" placeholder="주소벨류">
-                        <input type="file" name="" value="">
-                    </div>
-                    <div>
-                        <input type="text" name="user-address-detail" value="" placeholder="주소벨류">
-                    </div>
-                </span>
+                <label class="form-txt" for="user-ad">주소</label>
+                <input id="user-ad" type="text" name="user-address" value="" placeholder="주소벨류">
+                <button id="user-ad" name="" value="">주소 찾기</button>
+                <input id="add2" type="text" name="user-address-detail" value="" placeholder="주소벨류">
+                    
+                
+                    
+                
             </div>
+
+            
             
             <!--    #####################       -->
 
@@ -81,19 +81,19 @@
             <div class="form-group">
                 <span class="form-txt">나이</span>
 
-                <label for="rdo-age10">10대</label>
+                <label class="rdo-label" for="rdo-age10">10대</label>
                 <input id="rdo-age10" type="radio" name="age" value="">
 
-                <label for="rdo-age20">20대</label>
+                <label class="rdo-label" for="rdo-age20">20대</label>
                 <input id="rdo-age20" type="radio" name="age" value="">
 
-                <label for="rdo-age30">30대</label>
+                <label class="rdo-label" for="rdo-age30">30대</label>
                 <input id="rdo-age30" type="radio" name="age" value="">
 
-                <label for="rdo-age40">40대</label>
+                <label class="rdo-label" for="rdo-age40">40대</label>
                 <input id="rdo-age40" type="radio" name="age" value="">
 
-                <label for="rdo-age-etc">기타</label>
+                <label class="rdo-label" for="rdo-age-etc">기타</label>
                 <input id="rdo-age-etc" type="radio" name="age" value="">
                 
             </div>
@@ -101,16 +101,16 @@
             <div class="form-group">
                 <span class="form-txt">혈액형</span>
 
-                <label for="rdo-bloodA">A형</label>
+                <label class="rdo-label" for="rdo-bloodA">A형</label>
                 <input id="rdo-bloodA" type="radio" name="blood-type" value="">
 
-                <label for="rdo-bloodB">B형</label>
+                <label class="rdo-label" for="rdo-bloodB">B형</label>
                 <input id="rdo-bloodB" type="radio" name="blood-type" value="">
 
-                <label for="rdo-bloodO">O형</label>
+                <label class="rdo-label" for="rdo-bloodO">O형</label>
                 <input id="rdo-bloodO" type="radio" name="blood-type" value="">
 
-                <label for="rdo-bloodAB">AB형</label>
+                <label class="rdo-label" for="rdo-bloodAB">AB형</label>
                 <input id="rdo-bloodAB" type="radio" name="blood-type" value="">
 
             </div>
@@ -118,22 +118,22 @@
             <div class="form-group">
                 <span class="form-txt">취미</span>
 
-                <label>독서</label>
+                <label class="rdo-label">독서</label>
                 <input type="checkbox" name="" value="">
                 
-                <label>음악</label>
+                <label class="rdo-label">음악</label>
                 <input type="checkbox" name="" value="">
                 
-                <label>여행</label>
+                <label class="rdo-label">여행</label>
                 <input type="checkbox" name="" value="">
                 
-                <label>영화</label>
+                <label class="rdo-label">영화</label>
                 <input type="checkbox" name="" value="">
                 
-                <label>코딩</label>
+                <label class="rdo-label">코딩</label>
                 <input type="checkbox" name="" value="">
                 
-                <label>기타</label>
+                <label class="rdo-label">기타</label>
                 <input type="checkbox" name="" value="">
 
             </div>
@@ -145,7 +145,7 @@
 
             <!--    #####################       -->
 
-            <div class="form-group">
+            <div class="btn-area">
                 <button>등록</button>
                 <button>초기화</button>
             </div>

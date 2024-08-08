@@ -20,45 +20,63 @@ body {
     font-weight: bold;
 }
 
+.content ol {
+    padding: 10px 0px;
+}
+
+.content ol>li{
+    float: left;
+}
+
+.content ol>li::after{
+    content: ">";
+}
+
+.content ol>li:last-child::after {
+    content: "";
+}
+
 /* ########    content 뽐    ############# */
 
 .content .form-group {
     margin: 0px 0px 10px 0px;
     border-bottom: 1px solid lightgray;
+    padding: 5px;
 }
 
 .content .form-group .form-txt {
     display: inline-block ;
-    width: 120px;
+    width: 200px;
     text-align: center;
     font-size: 12px;
+    vertical-align: top;
 }
 
 /* 아이디입력 */
 .content .form-group #user-id {
-    width: 600px;
+    width: 150px;
 }
 
 /* 패스워드입력 */
 .content .form-group #user-pw {
-    width: 600px;
+    width: 150px;
 }
 
 /* 이름입력 */
 .content .form-group #user-name {
-    width: 600px;
+    width: 150px;
 }
 
 /* 주소입력 */
 .content .form-group #user-address {
-    width: 400px;
+    width: 40px;
 }
 
 /* 주소찾기 */
 
 /* 상세주소입력 */
 .content .form-group #user-address-detail {
-    width: 900px;
+    width: 150px;
 }
 
 /* 이동통신사 선택 */
@@ -67,23 +85,31 @@ body {
 }
 
 /* 나이 혈액형 라디오버튼 */
-.content .form-group input[name="age"] input[name="blood-type"] {
+.content .form-group input[type="radio"]  input[name="blood-type"] {
     margin-right: 10px;
     vertical-align: middle;
     width: 13px;
     height: 13px;
+    background-color: #ff0000;
+} 
+
+.content > .form-group >  label.rdo-label {
+    font-family: "맑은 고딕";
+    font-size: 15px;
+
 }
 
 /* 취미 체크박스 */
 .content .form-group input[type="checkbox"]{ 
     margin-right: 10px;
     vertical-align: middle;
+    background-color: #ff0000;
 }
 
 /* 자기소개 */
 .content .form-group #selfintroduce {
-    width: 686px;
-    height: 80px;
+    width: 200px;
+    height: 50px;
     font-family: "맑은 고딕";
     font-size: 15px;
 }
@@ -92,6 +118,7 @@ body {
 
 /* 버튼영역 */
 .content .btn-area {
+    
     padding: 10px 0px;
     text-align: center;
 }
@@ -102,4 +129,8 @@ body {
     width: 120px;
     font-family: "맑은 고딕";
     font-size: 15px;
+}
+#add2{
+    width: 200px;
+    margin-left: 203px;
 }
