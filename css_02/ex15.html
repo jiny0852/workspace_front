@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+
+<html lang="ko">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        
+        <style>
+            ol>li {
+                float: left;
+                list-style-type: none;
+
+                /*border: 1px solid #000;*/
+
+            }
+
+            ol>li::after {
+                margin: 0px 13px 0px 13px;
+                content: ">";
+            }
+
+            ol>li.last::after {
+                content: "";
+            }
+
+            ol>li:last-child::after {
+                content: "";
+            }
+
+            
+
+        </style>
+
+
+    </head>
+
+
+    <body>
+
+        <ol>
+            <li>홈</li>
+            <li>게시판</li>
+            <li>일반게시판</li>
+            <li>리스트</li>
+            <!--<li class="last">리스트</li>-->
+        </ol>
+    
+
+
+    </body>
+
+
+
+</html>

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+    background-color: #808080;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    padding: 10px;
+}
+
+/* ########    content    ############# */
+
+.content {
+    width: 600px;
+    background-color: #ffffff;
+    
+}
+
+.content h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ########    content 뽐    ############# */
+
+.content .form-group {
+    margin: 0px 0px 10px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.content .form-group .form-txt {
+    display: inline-block ;
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* 아이디입력 */
+.content .form-group #user-id {
+    width: 600px;
+}
+
+/* 패스워드입력 */
+.content .form-group #user-pw {
+    width: 600px;
+}
+
+/* 이름입력 */
+.content .form-group #user-name {
+    width: 600px;
+}
+
+/* 주소입력 */
+.content .form-group #user-address {
+    width: 400px;
+}
+
+/* 주소찾기 */
+
+/* 상세주소입력 */
+.content .form-group #user-address-detail {
+    width: 900px;
+}
+
+/* 이동통신사 선택 */
+.content .form-group #sel-board {
+    width: 200px;
+}
+
+/* 나이 혈액형 라디오버튼 */
+.content .form-group input[name="age"] input[name="blood-type"] {
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 13px;
+    height: 13px;
+}
+
+/* 취미 체크박스 */
+.content .form-group input[type="checkbox"]{ 
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* 자기소개 */
+.content .form-group #selfintroduce {
+    width: 686px;
+    height: 80px;
+    font-family: "맑은 고딕";
+    font-size: 15px;
+}
+
+/* ########   button     ############# */
+
+/* 버튼영역 */
+.content .btn-area {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+
+/* 버튼 */
+.content .btn-area button {
+    width: 120px;
+    font-family: "맑은 고딕";
+    font-size: 15px;
+}

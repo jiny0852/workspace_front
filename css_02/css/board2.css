@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body {
+    padding: 10px;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    background-color: #808080;
+}
+
+.content{
+    width: 700px;
+    background-color: #ffffff;
+}
+
+.content h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content ol {
+    padding: 10px 0px;
+}
+
+.content ol>li{
+    float: left;
+}
+
+.content ol>li::after{
+    content: ">";
+}
+
+.content .form-group {
+    margin: 0px 0px 10px 0px ;
+}
+
+
+.content .form-group .form-text { /*여러곳에서 사용*/
+    display: inline-block;   /*왜 inline-block?*/ 
+    width: 80px;
+    text-align: left;
+}
+
+/* 게시판선택 */
+.content .form-group #sel-board {
+    width: 200px;
+}
+
+/* 제목입력 */
+.content .form-group #txt-title {
+    width: 600px;
+}
+
+/* 패스워드입력 */
+.content .form-group #txt-pw {
+    width: 196px;
+}
+
+/* 공개범위 라디오버튼 name속성 사용*/
+.content .form-group input[name="scope"] {
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 13px;
+    height: 13px;
+}
+
+/* 허용범위 체크박스 type속성 사용
+다른 체크박스도 같이 적용될수 있다 공부차원 사용해봤음*/
+.content .form-group input[type="checkbox"]{ 
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* 내용 */
+.content .form-group #txt-content{
+    width: 686px;
+    height: 80px;
+}
+
+/* 첨부파일 */
+
+/* 버튼영역 */
+.content .btn-area{
+    padding: 20px 0px 20px 0px;
+    border-top: 1px solid #000000;
+    text-align: center;
+}
+
+/* 버튼 */
+.content .btn-area button{
+    width: 60px;
+    height: 30px;
+}

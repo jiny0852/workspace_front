@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* 기본 요소 초기화 */
+body, div, p, dl, dt, ol, ul, li,
+h1, h2, h3, h4, h5, h6, 
+form, input, select, textarea, button,
+fieldset, legend,  
+table, thead, tbody, tfoot, tr, th, td,   
+header, footer, main, nav, section, article, aside {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px;
+    font-family: "맑은 고딕";
+    font-size: 12px;
+    background-color: #808080;
+    
+}
+
+.content {
+    width: 700px;
+    background-color: #ffffff;
+}
+
+.content h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content ol {
+    padding: 10px 0px;
+}
+
+.content ol > li {
+    float: left;
+    /*border: 1px solid #000;*/
+}
+
+.content ol>li::after {
+    content: ">";
+}
+
+.content .form-group .form-txt { /*여러곳에서 사용*/
+    display: inline-block; /* 중요 여기 왜 inline-block 인지 */
+    width: 80px;
+    text-align: left;
+
+    /*background-color: #ff0000;*/
+}
+
+select {
+    width: 200px;
+}
+
+/* 게시판선택 */
+#sel-board {
+    width: 200px;
+}
+
+/* 제목입력 */
+#txt-title {
+    width: 600px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* 공개범위 라디오 버튼 name속성 사용 */
+input[name="scope"] {
+    margin-right: 10px;
+    vertical-align: middle;
+
+    width: 13px;
+    height: 13px;
+}
+
+/* 허용범위 체크박스 type속성 */ 
+input[type="checkbox"] {
+    /* 다른체크박스도 같이 적용될수있다 
+    공부차원용 사용 */
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* 내용 */ 
+.content .form-group #txt-content {
+    width: 686px;
+    height: 80px;
+    font-family: "맑은 고딕";
+}
+
+/* 버튼 */
+.content .btn-area button {
+    width: 60px;
+    height: 30px;
+}
+/*
+.btn-area {
+    background-color: #ff0000;
+}*/
+
+/* 버튼영역 */
+.content .btn-area {
+    padding: 20px 0px 20px 0px;
+    text-align: center; 
+    border-top: 1px solid #000;
+}
+
+ul > li, ol > li {
+    list-style-type: none;
+}
+
+
