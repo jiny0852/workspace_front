@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+#wrap #contents2 { /* 가로 2단 모든페이지 */
+    padding: 20px 0px;
+}
+
+#wrap #contents2 #aside { /* 가로 2단 모든페이지 */
+    float: left;
+    width: 200px;
+}
+
+#wrap #contents2 #main { /* 가로 2단 모든페이지 */
+    float: left;
+    background-color:  green;
+    width: 800px;
+}
+
+
+
+
+
+/* aside */
+#aside h2 {
+    width: 100%;    
+    height: 60px;
+    background-color: #dddddd;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 60px; /* 한줄일때만 사용 가능 가운데로 */
+}
+
+#aside ul>li {
+    margin-top: 5px;
+    border: 1px solid #a6a6a6;
+    font-size: 15px;
+
+    padding: 8px 0px 8px 15px;
+}
+
+
+/* main */
+#main #top {
+    border-bottom: 1px solid #dddddd;
+}
+
+#main h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+#main ol {
+    float: right;
+    padding: 15px 0px;
+    
+}
+
+#main ol>li {
+    float: left;
+
+    font-size: 12px;
+    
+    
+}
+
+#main ol>li::after {
+    content: ">";
+    margin: 5px;
+}
+
+#main ol>:last-child::after {
+    content: "";
+    margin: 5px;
+}
+
+#main .board-serch {
+    float: right;
+    margin: 15px 2px 1px 0px;
+}
+
+#main .board-table {
+    float: right;
+}
+
+
+
+#main .board-btn-write {
+    float: right;
+
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+}
