@@ -43,8 +43,13 @@
 
 
 /* main */
+/*#main {
+    margin-left: 10px;
+}*/
+
 #main #top {
     border-bottom: 1px solid #dddddd;
+    padding: 8px 0px 8px 15px;
 }
 
 #main h3 {
