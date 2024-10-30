@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+.container {
+    width: 500px;
+    height: 200px;
+    border: 5px solid #000;
+    margin-bottom: 50px;
+
+    display: flex;
+
+}
+
+.container.row {
+    flex-direction: row;
+    
+    /*주측 - 가로*/
+    justify-content: flex-start; 
+    
+    /*교차측 - 세로 */
+    /* align-items: flex-start;*/ 
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-items: baseline;
+    /*align-items: stretch;*/ 
+    /* stretch - 아이템이 컨테이너의 교차 축 방향으로 가능한 최대 크기로 확장됩니다.*/
+}
+
+.container.column {
+    flex-direction: column;
+
+    /*주측 - 세로*/
+    justify-content: flex-start; 
+    
+    /*교차측 - 가로*/
+    align-items: flex-start; 
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-items: baseline;
+    /* align-items: stretch; */
+}   
+
+.item1 {
+    border: 3px solid #f00;
+    font-size: 15px;
+}
+
+.item2 {
+    border: 3px solid #00f;
+    font-size: 20px;
+}
+
+.item3 {
+    border: 3px solid #0f0;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+

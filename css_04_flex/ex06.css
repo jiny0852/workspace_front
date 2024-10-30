@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+.container {
+    width: 500px;
+    /* width: 100%; */
+    height: 200px;
+    border: 5px solid #000;
+    margin-bottom: 50px;
+
+    display: flex;
+
+}
+
+.container.row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+
+}
+
+.container.column {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+
+}
+
+.item1 {
+    border: 3px solid #f00;
+    /* width: 200px;  */
+    /* 고정으로 가로로 200 */
+    /* flex-basis: 200px; */
+
+    /* flex-basis: auto; */
+    /* auto는 컨텐츠 크기만큼 */
+
+    flex-basis: 0;
+    /* 사이즈가 변할때 지금 시점만 고정이 아니라 시작만 */
+    /* 눈에는 보이는데 사이즈 시작을 0으로 */
+}
+
+.item2 {
+    border: 3px solid #00f;
+    
+}
+
+.item3 {
+    border: 3px solid #0f0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
