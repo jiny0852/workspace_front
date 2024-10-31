@@ -1,0 +1,84 @@
+<!-- 
+
+align-items: ; 세로축의 규칙
+헷갈림 방지
+
+align-items: flex-start;
+align-content: stretch;
+둘이 같이 쓰지 않는다
+쓸때도 있는데 꽉채울떄는 안쓴다
+틀 의 간격이 맞아지지 않는다
+
+
+align-content: ;
+그룹의 규칙
+
+속성-아이템 그룹 간의 여유 공간
+align-content: 속성값(부모)
+flex-wrap: wrap; 일때만 사용
+🡪2줄 이상으로 표현되고 있을때
+한줄에 배치된 아이템들
+=>아이템 그룹 이라고 표현
+
+:
+교차축으로 이동하라임
+주즉은 이건데 교차축의 움직임
+
+
+
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex09.css">
+
+
+
+</head>
+<body>
+
+    <div class="container row">
+        
+        <div class="item1">One1</div>
+        <div class="item2">TwoTwo2</div>
+        <div class="item3">ThreethreeThree3</div>
+        <div class="item1">One4</div>
+        <div class="item2">TwoTwo5</div>
+        <div class="item3">ThreethreeThree6</div>
+        <div class="item1">One7</div>
+        <div class="item2">TwoTwo8</div>
+        <div class="item3">ThreethreeThree9</div>
+        <div class="item1">One10</div>
+        <div class="item2">TwoTwo11</div>
+        <div class="item3">ThreethreeThree12</div>
+
+    </div>
+
+    <div class="container column">
+        
+        <div class="item1">One1</div>
+        <div class="item2">TwoTwo2</div>
+        <div class="item3">ThreethreeThree3</div>
+        <div class="item1">One4</div>
+        <div class="item2">TwoTwo5</div>
+        <div class="item3">ThreethreeThree6</div>
+        <div class="item1">One7</div>
+        <div class="item2">TwoTwo8</div>
+        <div class="item3">ThreethreeThree9</div>
+        <div class="item1">One10</div>
+        <div class="item2">TwoTwo11</div>
+        <div class="item3">ThreethreeThree12</div>
+
+    </div>
+
+
+    
+</body>
+</html>

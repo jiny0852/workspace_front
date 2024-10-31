@@ -2,14 +2,14 @@
 
 
 .container {
-    width: 700px;
-    /* width: 500px; */
-    /* width: 100%; */
+    width: 500px;
     height: 200px;
     border: 5px solid #000;
     margin-bottom: 50px;
 
     display: flex;
+    
+    
 
 }
 
@@ -17,54 +17,39 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-
-    flex-wrap: wrap;
-
+    /* flex-wrap: wrap; */
+    /* 넘치면 내려가라 여서 지우고 해야함 */
 }
 
 .container.column {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 
 .item1 {
     border: 3px solid #f00;
-    /* width: 200px;  아무리 줄어도 200*/ 
-    
 
-
-    /* width: 30%; */
-
-    /* flex-basis: auto; */
-    flex-basis: 100px;
-    flex-grow: 1;
-
+    flex-basis: 290px;
+    flex-shrink: 1;
 
 }
 
 .item2 {
     border: 3px solid #00f;
 
-    /* width: 30%; */
+    flex-basis: 290px;
+    flex-shrink: 1;
 
-    /* flex-basis: auto; */
-    flex-basis: 300px;
-    flex-grow: 1;
-    
 }
 
 .item3 {
     border: 3px solid #0f0;
 
-    /* width: 37%; */
-
-    /* flex-basis: auto; */
-    flex-basis: 100px;
-    flex-grow: 1;
+    flex-basis: 290px;
+    flex-shrink: 1;
 
 }
 
